@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/button_bar_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout style="@style/ButtonBarButton">
+
+            <com.szw.bbs.view.MainBottomButton
+                android:id="@+id/button_home"
+                style="@style/MainButtonBarImgBtn"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtonBarButton">
+
+            <com.szw.bbs.view.MainBottomButton
+                android:id="@+id/button_diagnosis"
+                style="@style/MainButtonBarImgBtn"
+                android:gravity="center" />
+        </RelativeLayout>
+
+
+        <RelativeLayout style="@style/ButtonBarButton">
+
+            <com.szw.bbs.view.MainBottomButton
+                android:id="@+id/button_mine"
+                style="@style/MainButtonBarImgBtn"
+                android:gravity="center" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/button_bar_group"
+        android:background="@color/gray" />
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line" />
+</RelativeLayout>

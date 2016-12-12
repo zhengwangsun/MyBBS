@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="top_bg_color">#21983c</color>
+    <color name="light_white">#e6e6e6</color>
+    <color name="light_black">#292c33</color>
+    <color name="light_gray">#f3f3f3</color>
+    <color name="dark_gray">#828282</color>
+    <color name="translucent">#88000000</color>
+    <color name="translucent_gray">#88CCCCCC</color>
+    <color name="green">#36d250</color>
+    <color name="green_select">#21983c</color>
+    <color name="green_select_translucent">#2221983c</color>
+    <color name="blue">#499BF7</color>
+    <color name="white">#ffffff</color>
+    <color name="grays">#ebebeb</color>
+    <color name="black">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="gray_title">#f9f9f9</color>
+    <color name="transparent">#00000000</color>
+    <color name="list_divider_bg">#aaaaaa</color>
+    <color name="bg_transparent">#22000000</color>
+    <color name="bg_full_screen">#d8f9f9f9</color>
+
+    <color name="black222">#222222</color>
+    <color name="gray999">#999999</color>
+    <color name="red">#de2e2d</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="yellow">#F99503</color>
+    <color name="shallow">#eeeeee</color>
+    <color name="bg_light_gray">#fff6f6f6</color>
+    <color name="divider_bg">#d1d6d9</color>
+
+    <color name="span_orange">#f994ab</color>
+    <color name="span_red">#FF0000</color>
+    <color name="span_blue">#97bcf0</color>
+    <color name="span_gray">@color/grays</color>
+    <color name="tab_normal_color">#7f7f7f</color>
+    <color name="tab_select_color">#2196f3</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="content_border">#ffb3bac0</color>
+    <color name="content_border_line">#ffb9c4d4</color>
+    <color name="content_border_line_selected">@color/tab_select_color</color>
+
+    <color name="blue_select">#0c63a9</color>
+    <color name="red_select">#c21b1a</color>
+
+    <!-- VOIP -->
+    <color name="voip_interface_text_color">#bababa</color>
+</resources>
